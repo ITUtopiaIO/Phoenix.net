@@ -1,4 +1,9 @@
 # Phoenix
 Phoenix, a Cactus Showcase
 
-Disclaim: Phoenix is been build to showcase for Cactus BDD tool, it's underlying logic has not been scientifically verified.
+
+Attribution:
+Following are the data source been used in this project:
+* USGS North American Breeding Bird Survey https://www.usgs.gov/centers/eesc/science/north-american-breeding-bird-survey
+
+Disclaim: Phoenix is been build to showcase for Cactus BDD tool, it's underlying logic has not been scientifically verified. Some original data may have been modified to fit for the demo purpose.
