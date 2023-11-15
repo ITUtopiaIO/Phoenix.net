@@ -20,4 +20,8 @@
     <Folder Include="Support\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Phoenix.Core\Phoenix.Core.csproj" />
+  </ItemGroup>
+
 </Project>
