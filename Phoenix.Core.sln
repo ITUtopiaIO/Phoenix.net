@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoenix.Core", "src\Phoenix.Core\Phoenix.Core.csproj", "{0868515F-88FD-4666-A38B-00B34CF5A480}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoenix.Core", "Phoenix.Core\src\Phoenix.Core\Phoenix.Core.csproj", "{0868515F-88FD-4666-A38B-00B34CF5A480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoenix.Core.Test", "test\Phoenix.Core.Test\Phoenix.Core.Test.csproj", "{0F17A8A2-0771-49FC-8B66-12520700D56C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoenix.Core.Test", "Phoenix.Core\test\Phoenix.Core.Test\Phoenix.Core.Test.csproj", "{0F17A8A2-0771-49FC-8B66-12520700D56C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
