@@ -35,7 +35,7 @@ namespace Phoenix.Core
         { 
             get
             {
-                return this.Genus + " " + this.Species;
+                return this.Genus + "-" + this.Species;
             }
         }
 
