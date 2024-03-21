@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Phoenix.Core.Test.StepDefinitions
+namespace Phoenix.Core.SpecFlowTest.StepDefinitions
 {
     [Binding]
     public sealed class BirdSpeciesStepDefinitions
@@ -13,10 +13,10 @@ namespace Phoenix.Core.Test.StepDefinitions
         [Given(@"I enter a bird species with the following values")]
         public void GivenIEnterABirdSpeciesWithTheFollowingValues(Table table)
         {
-            _birdSpecies = EnterABirdSpeciesFromTable (table);
+            _birdSpecies = EnterABirdSpeciesFromTable(table);
         }
-        
-        BirdSpecies EnterABirdSpeciesFromTable (Table table)
+
+        BirdSpecies EnterABirdSpeciesFromTable(Table table)
         {
             BirdSpecies birdSpecies = new BirdSpecies();
 
@@ -31,7 +31,7 @@ namespace Phoenix.Core.Test.StepDefinitions
                 //birdSpecies.Family = table.Rows[0]["Family"];
                 birdSpecies.Genus = table.Rows[0]["Genus"];
                 birdSpecies.Species = table.Rows[0]["Species"];
-            }   
+            }
 
             return birdSpecies;
 
