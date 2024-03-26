@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Phoenix.Core.SpecFlowTest.Features
+namespace Phoenix.Core.SpecFlowNUnitTest.Features
 {
     using TechTalk.SpecFlow;
     using System;

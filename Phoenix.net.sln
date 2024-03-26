@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix.Core", "src\Phoenix.Core\Phoenix.Core.csproj", "{6232223A-7240-43B0-991C-ACE01291FC73}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix.Core.SpecFlowTest", "test\Phoenix.Core.SpecFlowTest\Phoenix.Core.SpecFlowTest.csproj", "{58D02FB1-B045-4F02-A1CD-BE0BACCECE37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix.Core.SpecFlowNUnitTest", "test\Phoenix.Core.SpecFlowNUnitTest\Phoenix.Core.SpecFlowNUnitTest.csproj", "{6E9C442C-FC00-4413-94F3-A755EF9AD37C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix.Core.ReqnrollNUnitTest", "test\Phoenix.Core.ReqnrollNUnitTest\Phoenix.Core.ReqnrollNUnitTest.csproj", "{8F1593DC-5509-42BA-BCF9-1CAB8E2842F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{6232223A-7240-43B0-991C-ACE01291FC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6232223A-7240-43B0-991C-ACE01291FC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6232223A-7240-43B0-991C-ACE01291FC73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58D02FB1-B045-4F02-A1CD-BE0BACCECE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58D02FB1-B045-4F02-A1CD-BE0BACCECE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58D02FB1-B045-4F02-A1CD-BE0BACCECE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58D02FB1-B045-4F02-A1CD-BE0BACCECE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9C442C-FC00-4413-94F3-A755EF9AD37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9C442C-FC00-4413-94F3-A755EF9AD37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9C442C-FC00-4413-94F3-A755EF9AD37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9C442C-FC00-4413-94F3-A755EF9AD37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1593DC-5509-42BA-BCF9-1CAB8E2842F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1593DC-5509-42BA-BCF9-1CAB8E2842F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1593DC-5509-42BA-BCF9-1CAB8E2842F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1593DC-5509-42BA-BCF9-1CAB8E2842F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
