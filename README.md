@@ -1,6 +1,7 @@
 # Phoenix
 Phoenix, a Cactus Showcase
 
+The project is currently in DIP - Dev In Progress.
 
 Attribution:
 Following are the data source been used in this project:
